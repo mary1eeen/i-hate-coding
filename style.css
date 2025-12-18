@@ -1,88 +1,29 @@
-/* Reset some default spacing */
-body {
-    margin: 0;
-    padding: 0;
-    font-family:'Times New Roman', Times, serif;
-    background-color: #ffffff;
-    color: #000;
+ body{
+    font-family: 'Times New Roman', Times, serif;
+ }
+ h1{
+ background-color: aquamarine;
+ text-align: center;
 }
 
-/* Page wrapper */
-#container {
-    width: 900px;
-    margin: 0 auto;
-}
-
-/* Header */
-#header {
-    background-color: yellow;
-    text-align: center;
-    padding: 15px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Main layout */
-#content {
+.gen-container{
     display: flex;
-    margin-top: 20px;
 }
-
-/* Left menu */
-#menu {
-    width: 150px;
-    padding: 10px;
+.nav-bar{
+ width: 15%;
+border-right: 3px solid green;
+padding: 10px;
 }
-
-#menu h3 {
-    margin-top: 0;
+.content{
+ width: 50%;
+ margin-left: 3px;
 }
-
-#menu a {
-    display: block;
-    color: blue;
-    text-decoration: underline;
-    margin-bottom: 5px;
+.aside{
+width: 20%;
+border-color: darkgreen;
+border-style: dashed;
 }
-
-/* Main blog area */
-#main {
-    width: 500px;
-    padding: 10px;
-}
-
-#main h2 {
-    margin-bottom: 5px;
-}
-
-.date {
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Right sidebar */
-#sidebar {
-    width: 200px;
-    padding: 10px;
-    border: 2px dotted green;
-    height: fit-content;
-}
-
-#sidebar h3 {
-    margin-top: 0;
-}
-
-#sidebar a {
-    display: block;
-    color: blue;
-    text-decoration: underline;
-    margin-bottom: 5px;
-}
-
-/* Footer */
-#footer {
+.footer{
     text-align: center;
-    font-size: 12px;
-    margin-top: 20px;
 }
+
